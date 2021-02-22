@@ -9,8 +9,5 @@ public class HelloWorld {
 }
 
 
-class B{
-	
-}
 
 

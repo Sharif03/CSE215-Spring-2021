@@ -1,9 +1,16 @@
 package firstClass;
 
+import java.util.Scanner;
+
 public class JavaStudent {
 
 	public static void main(String[] args) {
-		System.out.println("Hello Students");
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Enter a number: ");
+		int number = input.nextInt();
+		
+		System.out.println(number);
 	}
 
 }
