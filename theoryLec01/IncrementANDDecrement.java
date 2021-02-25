@@ -44,6 +44,12 @@ public class IncrementANDDecrement {
 		
 		
 		
+		int xyz = a++ + ++a;   //<----// right to left(Unary post-fix and  pre-fix)
+		System.out.println(xyz);
+		System.out.println(a);
+		
+		
+		
 		
 		
 		
