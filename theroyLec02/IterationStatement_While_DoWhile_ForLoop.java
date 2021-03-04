@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class IterationStatement_While_DoWhile_ForLoop {
 
 	public static void main(String[] args) {
-		// b) Iteration: While + Do-While + For loop [Extra: foreach loop] && Sentinal Value
+		// b) Iteration: While + Do-While + For loop [Extra: for-each loop] && Sentinel Value
 		
 		/*
-		// While
+		// While Loop
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter number: ");
 		int value = input.nextInt();
@@ -24,8 +24,9 @@ public class IterationStatement_While_DoWhile_ForLoop {
 		}
 		*/
 		
+		
 		/*
-		// Do-While
+		// Do-While Loop
 		int j = 0;
 		do {
 			System.out.println("You Entered in Loop");
@@ -39,7 +40,7 @@ public class IterationStatement_While_DoWhile_ForLoop {
 		
 		
 		/*
-		// For loop
+		// For Loop
 		for(int i=0; i<5; i++) {
 			System.out.println(i);
 		}
@@ -78,9 +79,7 @@ public class IterationStatement_While_DoWhile_ForLoop {
 			}
 		 System.out.println("Block A");
 		}
-		
 		System.out.println("Normal");
 		
 	}
-
 }

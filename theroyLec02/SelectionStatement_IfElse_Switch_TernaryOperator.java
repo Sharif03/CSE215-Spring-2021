@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class SelectionStatement_IfElse_Switch_TernaryOperator {
 
 	public static void main(String[] args) {
+		
 		/*
 		// a) Selection: if, if-else, if-else if-else, switch(expression){case: default:}, Ternary operator (int a = (2>a) ? 2 : a ;) ?:
 		
@@ -32,8 +33,8 @@ public class SelectionStatement_IfElse_Switch_TernaryOperator {
 			System.out.println("March");
 		else
 			System.out.println("Not Match");
-		
 		*/
+		
 		
 		/*
 		//switch(expression){case: default:}
@@ -54,6 +55,8 @@ public class SelectionStatement_IfElse_Switch_TernaryOperator {
 		System.out.println(mon);
 		*/
 		
+		
+		/*
 		// Ternary operator (int a = (2>a) ? 2 : a ;) ?:
 		int a = 1;
 		int b = 6;
@@ -70,19 +73,6 @@ public class SelectionStatement_IfElse_Switch_TernaryOperator {
 		String message = input.nextLine();  // Hello
 		String fullMessage = (message.equals("Hello")) ? "Hello" : "Hello Java";
 		System.out.println(fullMessage);
-		
-		
-		
-		
-		
-		
-		
-			
-			
-		
-		
-			
-
+		*/
 	}
-
 }

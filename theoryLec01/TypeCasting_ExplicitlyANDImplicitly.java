@@ -29,6 +29,16 @@ public class TypeCasting_ExplicitlyANDImplicitly {
 				
 		
 		
+		byte bValue = 30;
+		int iValue = bValue;
+		float fValue = bValue;
+		fValue = iValue;
+		
+		iValue = (int)fValue;
+		System.out.println(iValue);
+		
+		bValue = (byte)iValue;
+		bValue = (byte)fValue;
 		
 				
 
