@@ -39,33 +39,6 @@ public class ArrayProgram {
 		}
 		
 		
-		// 2D Array
-		int twoDArray[][] = new int[3][3];
-
-		for(int i =0; i<3; i++) {
-			for(int j=0; j<3; j++) {
-				twoDArray[i][j] = (i+1) * (j+1);
-			}
-		}
-		
-		for(int i =0; i<3; i++) {
-			for(int j=0; j<3; j++) {
-				sum = sum + twoDArray[i][j];
-			}
-		}
-		
-		
-		
-		
-		
-		for(int x[] : twoDArray) {
-			for(int y : x) {
-				
-			}
-			
-		}
-		
-		
 		      
 
 	}
