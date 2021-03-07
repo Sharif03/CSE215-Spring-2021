@@ -4,21 +4,40 @@ import java.util.Scanner;
 public class PrintfAndScanOfJava {
 
 	public static void main(String[] args) {
-		
 		Scanner input = new Scanner(System.in);
-		System.out.println("Enter anything: ");
 		
-		char str1 = input.next().charAt(2);
-		String str2 = input.nextLine();
-		
-		System.out.println(str1);
+		// String- Full text		
+		System.out.println("Enter a String: ");
+		String str2 = input.nextLine(); // Hello World
 		System.out.println(str2);
-
-	}
-	public static void addition() {
+		
+		// Integer
+		System.out.println("Enter a number: ");
+		int value1 = input.nextInt();
+		System.out.println(value1);
+		
+		// Floating
+		System.out.println("Enter a floating number: ");
+		float value2 = input.nextFloat();
+		System.out.println(value2);
+		
+		// Floating
+		System.out.println("Enter a double number: ");
+		double value3 = input.nextDouble();
+		System.out.println(value3);
+		
+		// Charecter 
+		System.out.println("Enter a char: ");
+		char cr = input.next().charAt(0);  // T a s n i m
+		System.out.println(cr);            // 0 1 2 3 4 5
+		
+		// String- First word
+		System.out.println("Enter a String: ");
+		String str1 = input.next();  // Hello World
+		System.out.println(str1);
+		System.out.println();
 		
 	}
-
 }
 
  
