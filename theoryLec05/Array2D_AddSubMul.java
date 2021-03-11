@@ -51,7 +51,7 @@ public class Array2D_AddSubMul {
 		//System.out.println("\n\nSubtraction result of a & b: ");
 		for (int i=0; i<row; i++) {
 			for (int j=0; j<column; j++) {  
-				c[i][j] = a[i][j] - b[i][j];
+				d[i][j] = a[i][j] - b[i][j];
 				
 				//System.out.print(c[i][j] + " ");
 			}
@@ -59,42 +59,20 @@ public class Array2D_AddSubMul {
 		}
 		
 		// Multiplication
-		int e[][] = new int[row][column];  // 3 * 3
+		int e[][] = new int[row][column];   // 2 * 2
 		System.out.println("\n\nMultiplication result of a & b: ");
-		for (int i=0; i<row; i++) {
-			for (int j=0; j<column; j++) {  
+		for (int i=0; i<row; i++) {         // i=0
+			for (int j=0; j<column; j++) {  // j = 0 
 				
-				int sum = 0;
-				for(int k=0; k<3; k++) {
-					sum = sum +  a[i][k] * b[k][j];
+				int sum = 0;                // sum = 0
+				for(int k=0; k<3; k++) {    // k=0
+					// sum = 0 +  a[i][k] * b[k][j];
+					sum = 0 +  a[i][k] * b[k][j];  //i=0 j=0  k=0 sum=10
 				}
 				e[i][j] = sum;
 				System.out.print(e[i][j] + " ");
 			}
 			System.out.println();
 		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		/*
-		for (int i=0; i<row; i++) {
-			for (int j=0; j<column; j++) { 
-				System.out.print(a[i][j] + " "); 
-			}
-			System.out.print("\n");
-		}
-		*/
 	}
-
 }
