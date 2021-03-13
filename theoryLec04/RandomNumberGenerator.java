@@ -10,8 +10,16 @@ public class RandomNumberGenerator {
 		
 		int min = 50;
 		int max = 100;
-		int newRandomValue = (int) (min+Math.random() * (max-min+1));
+		int newRandomValue = (int) (min+Math.random() * (max-min+1)); 
 		System.out.println(newRandomValue);
+		
+		// Inclusive 
+		int inclusiveValue = (int) (min+Math.random() * (max-min+1));
+		
+		// Exclusive
+		int exclusiveValue = (int) (min+Math.random() * (max-min-1));
+		
+		
 		
 		
 		// 0.650771291935203
@@ -27,6 +35,10 @@ public class RandomNumberGenerator {
 		*/
 		
 	}
+	  public static char getRandomCharacter(char ch1, char ch2) {
+		    return (char)(ch1 + Math.random() * (ch2 - ch1 + 1));
+	 }
+
 	
 
 }
