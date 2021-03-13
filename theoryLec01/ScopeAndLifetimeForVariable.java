@@ -3,6 +3,13 @@ package theoryLec01;
 public class ScopeAndLifetimeForVariable {
 
 	public static void main(String[] args) {
+		int t = 10;
+		{
+			int s = 20;
+		    t = s;
+		}
+	
+		
 		int x = 10;
 		
 		if(x==10) {
