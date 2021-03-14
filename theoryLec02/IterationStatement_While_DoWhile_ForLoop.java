@@ -1,11 +1,11 @@
-package theroyLec02;
+package theoryLec02;
 
 import java.util.Scanner;
 
 public class IterationStatement_While_DoWhile_ForLoop {
 
 	public static void main(String[] args) {
-		// b) Iteration: While + Do-While + For loop [Extra: for-each loop] && Sentinel Value
+		// b) Iteration: While + Do-While + For loop [Extra: for-each loop/ enhanced for loop] && Sentinel Value
 		
 		/*
 		// While Loop
@@ -27,59 +27,28 @@ public class IterationStatement_While_DoWhile_ForLoop {
 		
 		/*
 		// Do-While Loop
-		int j = 0;
+		int j = 10;
 		do {
-			System.out.println("You Entered in Loop");
-		} while(j<0);
+			//System.out.println("You Entered in Loop");
+		} while(j<5);
 		
 		// Difference between while and do-while
-		while(j<0) {
+		while(j<5) {   // while(j<5);
 			System.out.println("You Entered in Loop");
 		}
 		*/
 		
 		
-		/*
 		// For Loop
-		for(int i=0; i<5; i++) {
+		int i =0;
+		for(i =0; i<5; i++) {   // for(i=0; i<5; i++);  
 			System.out.println(i);
 		}
-		*/
-		
-		
-		/*
-		// Jump Statement(Break && Continue && Level-block)
-		// Break
-		for(int i=0; i<5; i++) {
-			if(i == 3)
-				break;
+
+		// For loop is looking as like while loop
+		for(;i<5;) {   // for(i=0; i<5; i++);  
 			System.out.println(i);
+			i++;
 		}
-		
-		// Continue
-		for(int i=0; i<5; i++) {
-			if(i == 3)
-				continue;
-			System.out.println(i);
-		}
-		*/
-		
-		// Level-block
-		boolean truthValue = true;
-		System.out.println("Hello");
-		a:{
-			b:{
-			   c:{
-				truthValue = false;
-				if(truthValue == false)
-					break c;
-				System.out.println("Block C");
-			   }
-			 System.out.println("Block B");
-			}
-		 System.out.println("Block A");
-		}
-		System.out.println("Normal");
-		
 	}
 }
