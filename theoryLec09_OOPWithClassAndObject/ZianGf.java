@@ -1,4 +1,4 @@
-package theoryLec09_OOP;
+package theoryLec09_OOPWithClassAndObject;
 
 public class ZianGf {
 	// Property or field or instance variable and class variable or state

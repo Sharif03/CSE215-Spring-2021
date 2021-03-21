@@ -1,4 +1,4 @@
-package theoryLec09_OOP;
+package theoryLec09_OOPWithClassAndObject;
 
 public class TestBankAccount {
 
