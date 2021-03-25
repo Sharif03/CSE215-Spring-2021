@@ -4,10 +4,16 @@ public class Box {
 	private double width;
 	private double height;
 	private double depth;
+	//private Box box;
 	
 	public Box() {
 		
 	}
+	/*
+	public Box(Box b) {
+		this.box= b;
+	}
+	*/
 	public Box(double len) {
 		// width = height = depth = len;	
 		width = len;
@@ -42,6 +48,12 @@ public class Box {
 		this.height = height;
 		this.depth = depth;
 	}
+	public boolean equalTo(Box o) {
+		if(width>o.width && height>o.height && depth>o.depth)
+			return true;
+		else
+			return false;		
+	}
 	public double volume() {
 		double result = this.width * this.height * this.depth;
 		return result;
@@ -51,10 +63,5 @@ public class Box {
 		String details =  "Width=" + width + ", Height=" + height + ", Depth=" + depth;
 		return details;
 	}
-	
-	
-	
-	
-	
-    
+	   
 }
