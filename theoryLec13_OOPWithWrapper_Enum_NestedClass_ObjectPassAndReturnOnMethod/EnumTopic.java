@@ -1,4 +1,4 @@
-package TheoryLec13_OOPWithWrapperClass_Enum_NestedClassAndObjectPassingAndReturnThroughMethod;
+package theoryLec13_OOPWithWrapper_Enum_NestedClass_ObjectPassAndReturnOnMethod;
 
 public class EnumTopic {
 	
