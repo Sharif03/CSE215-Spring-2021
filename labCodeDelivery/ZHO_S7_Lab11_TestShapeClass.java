@@ -46,8 +46,8 @@ class Shape {
 }
 
 class Circle extends Shape{
-	private int circleId;
 	private static int circleCounter = 0;
+	private int circleId = circleCounter;
 	
 	public Circle(double radius) {
 		super(radius, radius);
@@ -76,8 +76,8 @@ class Circle extends Shape{
 	}		
 }
 class Rectangle extends Shape {
-	private int rectangleId;
 	private static int rectangleCounter = 0;
+	private int rectangleId = rectangleCounter; 
 	
 	public Rectangle(double side1, double side2) {
 		super(side1, side2);
