@@ -4,7 +4,7 @@ public class CompositionExampleInJava {
 
 	public static void main(String[] args) {
 		Heart heart = new Heart(17, 200);
-		Humen h1 = new Humen("Abir", 10, heart);
+		Human h1 = new Humen("Abir", 10, heart);
 		System.out.println(h1.toString());
 		
 	}
@@ -23,18 +23,18 @@ class Heart {
 	}	
 	
 }
-class Humen{
+class Human {
 	String name;
 	int age;
 	Heart heart;
-	public Humen(String name, int age, Heart heart) {
+	public Human(String name, int age, Heart heart) {
 		this.name = name;
 		this.age = age;
 		this.heart = heart;
 	}
 	@Override
 	public String toString() {
-		return "Humen [Name: " + name + ", Age: " + age + ", Heart info: " + heart.toString() + "]";
+		return "Human [Name: " + name + ", Age: " + age + ", Heart info: " + heart.toString() + "]";
 	}
 	
 }
