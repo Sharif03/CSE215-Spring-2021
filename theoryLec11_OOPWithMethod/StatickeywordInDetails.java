@@ -59,23 +59,21 @@ class Addition{
 
 
 
-
-
-
-
-
-
-
-
-
-
 // Static Class
 class A{
+	static int value = 5;
 	int a = 10;
 	int b = 20;
 	void f1() {
 		System.out.println("I'm from outer class");
 	}
+	
+	// Exceptional use of static variable
+	public void aMethod() {
+		A.value = 5;
+		int value = 10;
+		System.out.println(value + A.value);  // Addition of static and non-static variable in method 
+	}	
 	
 	class B{
 		int r = 5;
