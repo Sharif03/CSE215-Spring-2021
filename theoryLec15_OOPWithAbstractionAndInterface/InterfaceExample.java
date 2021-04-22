@@ -57,7 +57,7 @@ class Printer implements Machine {
 		System.out.println("Static Method");	
 	}
 }
-
+/*
 // Achieved Multiple Inheritance  && Abstraction && Loose couple
 interface A{
 	void method1();
@@ -111,5 +111,5 @@ interface U extends S, T{
 interface Special extends U, Y{
 	
 }
-
+*/
 
