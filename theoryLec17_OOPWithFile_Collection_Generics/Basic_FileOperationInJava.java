@@ -17,7 +17,7 @@ public class Basic_FileOperationInJava {
 		// File Writer
 		boolean isFileWrite = true;
 		try {
-			FileWriter f1 = new FileWriter(filePath, isFileWrite);
+			FileWriter f1 = new FileWriter(filePath, isFileWrite)
 			for (int i = 0; i < 10; i++) {
 				f1.write("Hello Hello" + "\n");
 			}
